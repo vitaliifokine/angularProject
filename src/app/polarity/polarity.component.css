@@ -5,6 +5,7 @@ h3 {
 
 div {
     vertical-align: top;
+    align-self: auto;
     display: block;
     display: inline-block;
     text-align: center;

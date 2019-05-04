@@ -18,14 +18,15 @@ export class PolarityComponent implements OnInit {
        label: '% of ',
        data: [25,50],
        backgroundColor: [
-           'rgba(204, 102, 153, 0.2)',
-           'rgba(66, 162, 235, 0.2)'
+         //167, 0, 66
+           "rgba(196, 49, 122, 1)",
+           "rgba(37, 103, 196, 1)"
        ],
        borderColor: [
-           'rgba(255,99,132,1)',
-           'rgba(54, 162, 235, 1)'
+           "rgba(196, 49, 122, 0.5)",
+           "rgba(37, 103, 196, 0.5)"
        ],
-       borderWidth: 1
+       borderWidth: 2
    }]
   }, 
   options: {
