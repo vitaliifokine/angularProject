@@ -1,0 +1,17 @@
+<div>
+  <h1>
+    <a>{{astro}}</a>
+  </h1>
+   <p>{{astroDescription}}</p> 
+   <hr>
+   <!-- <button [disabled]="!canAddCar" class="btn btn-secondary" onclick="window.location.href='https://www.astro.com/astro-databank/Main_Page'">Request consultation</button> -->
+   <!-- <input type="text" class="form-control" (keyup.enter)="onKeyUp($event)"> -->
+      <!-- <input type="text" class="form-control" [(ngModel)]="carName"> -->
+   <button class="btn btn-secondary" (click)="addStatusInfo()">Request consultation</button>  
+     <br>
+   <p *ngIf="!addStatus; else successStatus">Not added</p>
+      <ng-template #successStatus>
+        <p>Succesfully added</p>
+      </ng-template> 
+      
+</div>

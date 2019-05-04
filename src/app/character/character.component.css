@@ -1,0 +1,39 @@
+div{
+    vertical-align:top;
+    background: rgba(219,219,219,.2);
+    font-size: 10;
+    height: 300;
+    width: 280px;
+    color: grey;
+    display: block;
+    border: 3px solid lightgray;
+    display:inline-block;
+    margin: 10px;
+    text-align: center;
+}
+div:hover {
+    background-color: rgba(245, 222, 179, 0.226);
+  }
+  button:not([disabled]):hover {
+    background-color: rgba(245, 222, 179, 0.226);
+    color: rgba(0, 17, 49, 0.699);
+  }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6;
+    padding: 10px;
+    margin: inherit;
+    color:rgba(124, 121, 82, 0.466);
+}
+p{
+    font-size: 5;
+    padding: 10px;
+    margin: inherit;
+}
+span{
+    width: 40px;
+    height: 20px;
+    font-size: 5;
+    padding: 10px;
+    margin: inherit;
+}
