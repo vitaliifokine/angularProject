@@ -18,16 +18,16 @@ export class TemperamentComponent implements OnInit {
        label: '% of ',
        data: [25,50 , 10, 5],
        backgroundColor: [
-           'rgba(167, 0, 66, 0.2)',
-           'rgba(43, 168, 128, 0.2)',
-           'rgba(255, 238, 209, 0.2)',
-           'rgba(133, 231, 234, 0.2)'
+           'rgba(196, 49, 122, 1)',
+           'rgba(43, 168, 128, 1)',
+           'rgba(255, 238, 209, 1)',
+           'rgba(104, 182, 255, 1)'
        ],
        borderColor: [
-           'rgba(255,99,132,1)',
-           'rgba(124, 121, 82, 1)',
-           'rgba(255, 206, 86, 1)',
-           'rgba(75, 192, 192, 1)'
+           'rgba(196, 49, 122,0.5)',
+           'rgba(43, 168, 128, 1)',
+           'rgba(255, 238, 209, 1)',
+           'rgba(104, 182, 255, 1)'
        ],
        borderWidth: 1
    }]
