@@ -4,13 +4,13 @@ import {Chart} from 'chart.js';
 @Component({
   selector: 'app-temperament',
   templateUrl: './temperament.component.html',
-  styleUrls: ['./temperament.component.scss']
+  styleUrls: ['./temperament.component.css']
 })
 export class TemperamentComponent implements OnInit {
   PieChart=[];
 
   ngOnInit()
-  {this.PieChart = new Chart('polarity', {
+  {this.PieChart = new Chart('temperament', {
     type: 'pie',
   data: {
    labels: ["Choleric", "Melancholic", "Sanguine", "Phlegmatic"],
