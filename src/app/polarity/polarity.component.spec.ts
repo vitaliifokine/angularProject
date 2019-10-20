@@ -12,6 +12,7 @@ describe('PolarityComponent', () => {
     })
     .compileComponents();
   }));
+  
 
   beforeEach(() => {
     fixture = TestBed.createComponent(PolarityComponent);
